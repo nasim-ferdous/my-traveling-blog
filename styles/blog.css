@@ -1,21 +1,34 @@
 .form1 {
     text-align: center;
 }
+.form1 p{
+    color: darkgreen;
+}
+.form1 button{
+    color:darkgreen;
+}
 
 .place-list {
     text-align: left;
 
 }
 .place-list p{
-    color: coral;
+    color: rgb(107, 30, 2);
 }
 .place-list ul{
-    color: gold;
+    color: rgb(99, 84, 3);
 
 }
 
 #about-section {
     text-align: left;
+}
+
+.about-heading{
+    color: maroon;
+}
+.about-description{
+    color:rgb(109, 79, 4)
 }
 
 .card {
@@ -25,17 +38,17 @@
 }
 
 .card img {
-    width: 150px;
-    height: auto;
+    width: 200px;
+    height: 200px;
 }
 .card p{
-    color: tomato;
+    color: rgb(63, 15, 7);
 }
 
 .card-container {
     display: flex;
     /* text-align: center; */
-    justify-content: center;
+    justify-content:space-evenly;
 }
 
 * {
@@ -48,4 +61,7 @@
     background-image: url(images/images.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 2px solid gray;
+    border-bottom-style: double;
+    
 }
