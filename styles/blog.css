@@ -61,4 +61,13 @@
     left: 350px;
     bottom: 550px;
     }
+    .div5{
+        position:relative;
+        bottom: 530px;
+        left: 300px;
+    }
+    .p1{
+        border: 2px solid rgb(211, 29, 29);
+        border-right: none;
+    }
 
