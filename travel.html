@@ -1,87 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, 
     initial-scale=1.0">
     <title>Travel Blog</title>
-    <link rel="shortcut icon" href="images/travel.png" 
-    type="image/x-icon">
+    <link rel="shortcut icon" href="images/travel.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/blog.css">
-    <style>
-        .header{
-            color:rgb(70, 1, 1);
-            text-align: center;
-            background-image: url(images/images.jpeg);
-            background-repeat: no-repeat;
-            background-size: 900px 900px;
-        }
-        *{
-            background-color: rgb(156, 224, 224);
-        }
-    </style>
 </head>
+
 <body>
     <h2 class="header"> My Travel blog</h2>
-    <div class="div1">
-        <h3 class="h3">Places I Have traveled</h3>
-        <img src="images/204_nilgiri-bandarban-copyjpg.jpg"
-         width="250px" height="200px" alt="">
-         <p class="n">Nilgiri</p>
-         <button class="b1-1">Read Me</button>
-        <button class="b1-2">You tube Link</button>
-        <a href="https://www.youtube.com/watch?v=oMD2OgJi_3Q" 
-        target="_blank" >You tube Link</a>
-         
+    <h3 style="text-align: center;">Places I Have traveled</h3>
+    <div class="card-container">
+        <div class="card">
+            <img src="images/204_nilgiri-bandarban-copyjpg.jpg" alt="">
+            <p>Nilgiri</p>
+            <button>Read Me</button>
+            <button><a href="https://www.youtube.com/watch?v=oMD2OgJi_3Q" target="_blank">You tube Link</a></button>
+        </div>
+        <div class="card">
+            <img src="images/204_nilgiri-bandarban-copyjpg.jpg" alt="">
+            <p>Nilgiri</p>
+            <button>Read Me</button>
+            <button><a href="https://www.youtube.com/watch?v=oMD2OgJi_3Q" target="_blank">You tube Link</a></button>
+        </div>
+        <div class="card">
+            <img src="images/204_nilgiri-bandarban-copyjpg.jpg" alt="">
+            <p>Nilgiri</p>
+            <p>kjcghvjhvgbkdjg</p>
+            <button>Read Me</button>
+            <button><a href="https://www.youtube.com/watch?v=oMD2OgJi_3Q" target="_blank">You tube Link</a></button>
+        </div>
     </div>
-    <div class="div2">
-        <img src="images/Nafakhum.webp" width="250px" 
-         height="200px" alt="">
-         <p class="n2"> Nafakhum </p>
-         <button class="b2-1">Read Me</button>
-        <button class="b2-2">You tube Link</button>
-        <a href="https://www.youtube.com/watch?v=LXJ-7SsBpYY&t=918s"
-        target="_blank">You tube Link</a>
-    </div>
-    <div class="div3">
-        <img src="images/maxresdefault.jpg" width="250px" 
-        height="200px" alt="">
-        <p class="b">Bandorbon</p>
-        <button class="b3-1">Read Me</button>
-        <button class="b3-2">You tube Link</button>
-        <a href="https://www.youtube.com/watch?v=P3ZpIUNT1nE" 
-        target="_blank">You tube Link</a>
-    </div>
-    <div class="div4">
-        <p>
-            Enter your email
-        </p>
+    <div class="form1">
+
         <form action="">
-            <input type="text">
-        </form>
-        <p>
-            Enter Your password
-        </p>
-        <form action="">
-            <input type="password">
+            <p>
+                Enter your email
+            </p>
+            <input type="email" placeholder="email">
+            <p>
+                Enter Your password
+            </p>
+            <input type="password" placeholder="password">
         </form>
         <br>
         <button>Log in</button>
     </div>
-    <div class="div5">
-            <p class="p1">The List of Places in Bangladesh where you can 
-                travel </p>
-                <ul>
-                    <li>Bandorbon</li>
-                    <li>cox's Bazar</li>
-                    <li>Rangamati</li>
-                    <li>Saint martin</li>
-                    <li>Tangour hawor</li>
-                </ul>
+    <div class="place-list">
+        <p>The List of Places in Bangladesh where you can
+            travel </p>
+        <ul style="list-style: none;">
+            <li>Bandorbon</li>
+            <li>cox's Bazar</li>
+            <li>Rangamati</li>
+            <li>Saint martin</li>
+            <li>Tangour hawor</li>
+        </ul>
     </div>
-
-
-
-    
+    <div id="about-section">
+        <P>About Bandorbon:</P>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Ea rem culpa iusto consequatur totam, quasi, tempora
+            earum quibusdam natus odio tenetur alias a. Ipsa
+            excepturi quibusdam placeat incidunt labore velit!</p>
+        <P class="">About Cox's Bazar:</P>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Ea rem culpa iusto consequatur totam, quasi, tempora
+            earum quibusdam natus odio tenetur alias a. Ipsa
+            excepturi quibusdam placeat incidunt labore velit!</p>
+        <P class="">About Rangamati:</P>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Ea rem culpa iusto consequatur totam, quasi, tempora
+            earum quibusdam natus odio tenetur alias a. Ipsa
+            excepturi quibusdam placeat incidunt labore velit!</p>
+        <P class="">About Saint Martin:</P>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Ea rem culpa iusto consequatur totam, quasi, tempora
+            earum quibusdam natus odio tenetur alias a. Ipsa
+            excepturi quibusdam placeat incidunt labore velit!</p>
+        <P class="">About Tangour hawor:</P>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Ea rem culpa iusto consequatur totam, quasi, tempora
+            earum quibusdam natus odio tenetur alias a. Ipsa
+            excepturi quibusdam placeat incidunt labore velit!</p>
+    </div>
 </body>
+
 </html>
